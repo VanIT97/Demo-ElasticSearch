@@ -16,6 +16,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 public class ConfigFirst {
     @Bean
     public RestHighLevelClient clientFirst() {
+        System.out.println("asdkfjaofhao");
         ClientConfiguration clientConfiguration
                 = ClientConfiguration.builder()
                 .connectedTo("localhost:9200")
